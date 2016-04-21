@@ -2,8 +2,9 @@ package iut.tdd;
 
 public class RomanNumerals {
 	public String convertToRoman(String arabe) {
+		int nombre = Integer.parseInt(arabe);
 		String romain = "";
-		for(int i=1; i<3; i++){
+		for(int i=0; i<nombre; i++){
 			romain += "I";
 		}
 		return romain;
